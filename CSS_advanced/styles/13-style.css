@@ -45,7 +45,7 @@ a[href]:hover {
     text-decoration: underline;
 }
 a[href]:active {
-    color: var(--color-light-grey);
+    background-color: var(--color-light-grey);
 }
 .visually-hidden {
     display: none;
