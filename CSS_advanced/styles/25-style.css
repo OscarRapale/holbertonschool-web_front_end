@@ -165,7 +165,6 @@ ul.row {
     --text-color: var(--color-white);
     --section-title-color: var(--color-white);
     background-color: var(--color-black);
-    --button-color: var(--color-white);
 }
 .card-services .card-title {
     margin: 0;
@@ -192,6 +191,9 @@ ul.row {
     color: var(--button-hover-color);
     text-decoration: var(--button-text-decoration);
     background-color: var(--button-hover-background);
+}
+[data-section-theme="dark"] {
+    --button-color: var(--color-white);
 }
 .footer-copyright {
     margin: 0;
