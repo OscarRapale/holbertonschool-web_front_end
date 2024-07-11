@@ -44,6 +44,7 @@
     --button-text-decoration: none;
     --button-font-size: var(--font-size-large);
     --button-hover-color: var(--color-white);
+    --button-hover-text-decoration: none;
     --button-hover-background: var(--color-primary);
 }
 *, *::before, *::after{
@@ -164,6 +165,7 @@ ul.row {
 [data-section-theme="dark"] {
     --text-color: var(--color-white);
     --section-title-color: var(--color-white);
+    --button-color: var(--color-white);
     background-color: var(--color-black);
 }
 .card-services .card-title {
@@ -189,11 +191,8 @@ ul.row {
 }
 .button:hover {
     color: var(--button-hover-color);
-    text-decoration: var(--button-text-decoration);
+    text-decoration: var(--button-hover-text-decoration);
     background-color: var(--button-hover-background);
-}
-[data-section-theme="dark"] {
-    --button-color: var(--color-white);
 }
 .footer-copyright {
     margin: 0;
